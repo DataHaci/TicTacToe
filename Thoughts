@@ -37,6 +37,10 @@ Field:
     9 fields
     3x3 Matrix
 
+Winning definition:
+the player wins, who get the first winning pattern after his move
+winning patterns have to be defined
+
 
 Start:
 does the players chose which type cross or circle they choose?
