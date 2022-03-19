@@ -1,11 +1,43 @@
 Tic tac toe
 
 What the customer want:
-1. He want to play tic tac toe with a input box, so two human players can play the game
+1. Target is to play tic tac toe with a input box, so two human players can play the game
+    - local or internet?
+    - on pc, console?
+    - windows, linux?
 2. Visualize every move
 3. Configurate a bot so it is possible two play 1 Player vs CPU
+    - CPU vs CPU?
 4. Set difficulties
+    - steps of difficulty? easy, middle, hard, unbeatable? all?
 5. Finally make a GUI where to play with click
 
+- Timeline, Milestones
 
+What do we need for tic tac toe:
+Process
+    - start
+    - moves
+    - end
+clarify how to win
+3 in a row, diagonal, horizontal, scew
+9 fields
+3x3 Matrix
+
+
+Start:
+does the players chose which type cross or circle they choose?
+Define types, cross and circle
+
+before Move:
+tell whose turn it is
+
+Move:
+write in a field / maybe choose a field (easier for customer)
+does the field exist
+is field is already chosen
+
+after Move:
+are there 3 in a line from same type/player
+already won after move
 
