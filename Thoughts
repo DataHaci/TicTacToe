@@ -2,27 +2,40 @@ Tic tac toe
 
 What the customer want:
 1. Target is to play tic tac toe with a input box, so two human players can play the game
-    - local or internet?
-    - on pc, console?
-    - windows, linux?
+    - local or internet? only local
+    - on pc, console? on pc
+    - windows, linux? on windows
+    - programming language: python
 2. Visualize every move
 3. Configurate a bot so it is possible two play 1 Player vs CPU
-    - CPU vs CPU?
+    - CPU vs CPU? If time and capacity left, after step 1-5 works
 4. Set difficulties
-    - steps of difficulty? easy, middle, hard, unbeatable? all?
+    - steps of difficulty? easy, middle, hard, unbeatable? all? First unbeatable, afterwards easy, middle, hard, unbeatable
 5. Finally make a GUI where to play with click
+    - nice to have, but not must have
 
-- Timeline, Milestones
+Timeline, Milestones:
+End of april
+Milestone 1: Defined project target, timeline, content
+Milestone 2: Defined process of tic tac toe
+Milestone 3: Coded Point 1 on list derived from process
+Milestone 4: Code 1 tested
+Milestone 5: Visualized (Code 2) moves
+Milestone 6: Code 2 tested
+Milestone 7: Configurated (Code 3 + 4) bot with difficulty
+Milestone 8: Code 3 + 4 tested
+Milestone 9: Coded GUI
 
 What do we need for tic tac toe:
-Process
-    - start
-    - moves
-    - end
+Process:
+    start
+    moves (before, during, after)
+    end
 clarify how to win
-3 in a row, diagonal, horizontal, scew
-9 fields
-3x3 Matrix
+Field:
+    3 in a row, diagonal, horizontal, scew
+    9 fields
+    3x3 Matrix
 
 
 Start:
