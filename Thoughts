@@ -17,7 +17,9 @@ What the customer want:
 Timeline, Milestones:
 End of april
 Milestone 1: Defined project target, timeline, content
+    reached
 Milestone 2: Defined process of tic tac toe
+    reached
 Milestone 3: Coded Point 1 on list derived from process
 Milestone 4: Code 1 tested
 Milestone 5: Visualized (Code 2) moves
@@ -36,6 +38,10 @@ Field:
     3 in a row, diagonal, horizontal, scew
     9 fields
     3x3 Matrix
+
+Winning definition:
+the player wins, who get the first winning pattern after his move
+winning patterns have to be defined
 
 
 Start:
