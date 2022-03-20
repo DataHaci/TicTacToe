@@ -27,3 +27,4 @@ Alle = all(WCwin)
 print(Alle)
 
 'Iterate trough all wcx'
+'wc + n'
