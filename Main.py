@@ -8,14 +8,7 @@
 import numpy as np
 
 #wcx = WinConditions
-wc1 = [1, 2, 3]
-wc2 = [4, 5, 6]
-wc3 = [7, 8, 9]
-wc4 = [1, 4, 7]
-wc5 = [2, 5, 8]
-wc6 = [3, 6, 9]
-wc7 = [1, 5, 9]
-wc8 = [3, 5, 7]
+WinConList = ([1, 2, 3], [4, 5, 6], [7, 8, 9], [1, 4, 7], [2, 5, 8], [3, 6, 9], [1, 5, 9], [3, 5, 7])
 
 player1 = [1, 2, 3, 0, 0, 0, 0, 0, 0]
 player2 = [0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -28,3 +21,5 @@ print(Alle)
 
 'Iterate trough all wcx'
 'wc + n'
+
+
