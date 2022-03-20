@@ -14,13 +14,18 @@ player2 = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 'If player1 or player2 contains all three numbers of wcx in one of the wcx, then win condition'
 
 def proofWinConList():
-    n = 0
     WCwin = (WinConList[n][0] in player1, WinConList[n][1] in player1, WinConList[n][2] in player1)
     Alle = all(WCwin)
     print(Alle)
 
-'Iterate trough all wcx'
-'wc + n'
+'Iterate trough all WinConList'
+
+n = 0
+while n < 8:
+  proofWinConList()
+  n += 1
+
+
 
 
 
