@@ -6,11 +6,12 @@
 
 WinningConditions = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [1, 4, 7], [2, 5, 8], [3, 6, 9], [1, 5, 9], [3, 5, 7]]
 
-#only one field object
 Field = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 player1 = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 player2 = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+#Prüfung ob feld belegt einbauen, ist ein X oder O enthalten
 
 def WriteInPlayer():
     for x in range(5):
@@ -59,7 +60,6 @@ def IterateWinningConditionsP2():
     while n < 8:
         GoTroughWinningConditionsP2(n)
         n += 1
-
 
 WriteInPlayer()
 
