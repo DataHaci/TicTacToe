@@ -14,4 +14,3 @@ for x in range(5):
     player2[Position-1] = Position
     print("player2 ", player2)
 
-#Prüfung ob feld belegt einbauen, z.B. ist Position ungleich 0
