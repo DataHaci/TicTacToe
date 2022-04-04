@@ -19,7 +19,7 @@ def FieldVisualization():
     print(Field[3:6])
     print(Field[6:9])
 
-def WriteInPlayer():
+def Playersmoves():
     for x in range(5):
         Position = int(input("Which field Player 1? "))
         player1[Position - 1] = Position
@@ -53,9 +53,9 @@ def CheckIfP2won():
         if Alle:
             print("""
             #################################
-            CONGRATULATION - PLAYER1 HAS WON!
+            CONGRATULATION - PLAYER2 HAS WON!
             #################################""")
             quit()
 
-WriteInPlayer()
+Playersmoves()
 
