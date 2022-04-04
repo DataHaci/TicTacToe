@@ -1,30 +1,61 @@
-
-'read thoughts.txt'
+'read thoughts.txt' \
 '3x3 Matrix is like:' \
 '123' \
 '456' \
 '789'
 
-import numpy as np
+#Test if field is already used
+#clean code
 
-#wcx = WinConditions
-wc1 = [1, 2, 3]
-wc2 = [4, 5, 6]
-wc3 = [7, 8, 9]
-wc4 = [1, 4, 7]
-wc5 = [2, 5, 8]
-wc6 = [3, 6, 9]
-wc7 = [1, 5, 9]
-wc8 = [3, 5, 7]
+WinConditions = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [1, 4, 7], [2, 5, 8], [3, 6, 9], [1, 5, 9], [3, 5, 7]]
 
-player1 = [1, 2, 3, 0, 0, 0, 0, 0, 0]
+Field = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+player1 = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 player2 = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-'If player1 or player2 contains all three numbers of wcx in one of the wcx, then win condition'
+def FieldVisualization():
+    print(Field[0:3])
+    print(Field[3:6])
+    print(Field[6:9])
 
-WCwin = (wc1[0] in player1, wc1[1] in player1, wc1[2] in player1)
-Alle = all(WCwin)
-print(Alle)
+def Playersmoves():
+    for x in range(5):
+        Position = int(input("Which field Player 1? "))
+        player1[Position - 1] = Position
+        Field[Position - 1] = "X"
 
-'Iterate trough all wcx'
-'wc + n'
+        FieldVisualization()
+        CheckIfP1won()
+
+        Position = int(input("Which field Player 2? "))
+        player2[Position - 1] = Position
+        Field[Position - 1] = "O"
+
+        FieldVisualization()
+        CheckIfP2won()
+
+def CheckIfP1won():
+    for x in WinConditions:
+        WCwin = (x[0] in player1, x[1] in player1, x[2] in player1)
+        Alle = all(WCwin)
+        if Alle:
+            print("""
+            #################################
+            CONGRATULATION - PLAYER1 HAS WON!
+            #################################""")
+            quit()
+
+def CheckIfP2won():
+    for x in WinConditions:
+        WCwin = (x[0] in player2, x[1] in player2, x[2] in player2)
+        Alle = all(WCwin)
+        if Alle:
+            print("""
+            #################################
+            CONGRATULATION - PLAYER2 HAS WON!
+            #################################""")
+            quit()
+
+Playersmoves()
+

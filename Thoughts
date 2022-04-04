@@ -17,16 +17,26 @@ What the customer want:
 Timeline, Milestones:
 End of april
 Milestone 1: Defined project target, timeline, content
-    reached
+    Mileston 1 done
 Milestone 2: Defined process of tic tac toe
-    reached
+    Milestone 2 done
 Milestone 3: Coded Point 1 on list derived from process
+    - Milestone 3.1: Defined and iterated through winning conditions
+        Milestone 3.1 done
+    - Milestone 3.2: Made an inputbox for move and implemented turns
+        Milestone 3.2 done
 Milestone 4: Code 1 tested
+    Code 1 is tested
 Milestone 5: Visualized (Code 2) moves
+    Visualized moves
 Milestone 6: Code 2 tested
-Milestone 7: Configurated (Code 3 + 4) bot with difficulty
+    Visualizing moves is tested
+Milestone 7: Configurated (Code 3(bot) + 4(difficulty)) bot with difficulty
 Milestone 8: Code 3 + 4 tested
 Milestone 9: Coded GUI
+Milestone 10: Code 9 GUI tested
+Milestone 11: Complete program tested
+Milestone 12: Project completed and get some drink
 
 What do we need for tic tac toe:
 Process:
